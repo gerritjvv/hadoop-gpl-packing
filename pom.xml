@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.hadoopgqlpackaging</groupId>
+	<artifactId>hadoop-gpl-packaging</artifactId>
+	<version>0.1.0</version>
+	<packaging>jar</packaging>
+
+	<name>hadoop-gpl-packaging</name>
+	<url>http://code.google.com/p/hadoop-gpl-packing</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>rpm-maven-plugin</artifactId>
+				<version>2.0.1</version>
+				<extensions>true</extensions>
+
+				<configuration>
+					<copyright>http://www.gnu.org/licenses/gpl.html</copyright>
+					<distribution>hadoop-gpl-packaging</distribution>
+					<group>utilties</group>
+					<packager>http://code.google.com/p/hadoop-gpl-packing</packager>
+					<provides>
+						<provide>hadoopgpl</provide>
+					</provides>
+					<needarch>i386-32</needarch>
+					<requires>
+					 <require>lzo</require>
+					</requires>
+					<defineStatements>
+						<defineStatement>_unpackaged_files_terminate_build 0
+						</defineStatement>
+					</defineStatements>
+					<mappings>
+
+						<mapping>
+							<directory>/opt/hadoopgpl/native/</directory>
+							<directoryIncluded>false</directoryIncluded>
+							<filemode>775</filemode>
+							<username>hadoop</username>
+							<groupname>hadoop</groupname>
+							<sources>
+								<source>
+									<location>src/main/resources/native</location>
+								</source>
+							</sources>
+						</mapping>
+						<mapping>
+							<directory>/opt/hadoopgpl/lib/</directory>
+							<filemode>775</filemode>
+							<username>hadoop</username>
+							<groupname>hadoop</groupname>
+							<sources>
+								<source>
+									<location>src/main/resources/lib</location>
+								</source>
+							</sources>
+						</mapping>
+
+					</mappings>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
