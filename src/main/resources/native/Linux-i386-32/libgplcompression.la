@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/gvanvuuren/checkouts/hadoop-lzo-kevinweil/build/native/Linux-i386-32/../install/lib'
+libdir='/home/gvanvuuren/checkouts/hadooplzo/build/native/Linux-i386-32/../install/lib'
