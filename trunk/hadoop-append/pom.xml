@@ -37,7 +37,7 @@
 					<requires>
 						<require>hadoop-gpl-packaging</require>
 					</requires>
-					<needarch>x86_64</needarch>
+					<needarch>i386-32</needarch>
 					<defineStatements>
 						<defineStatement>_unpackaged_files_terminate_build 0
                                                 </defineStatement>
