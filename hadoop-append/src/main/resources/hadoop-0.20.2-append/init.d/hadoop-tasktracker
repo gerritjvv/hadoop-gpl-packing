@@ -39,8 +39,8 @@ case $prog in
 esac
 
 config () {
-    . /etc/profile.d/java.sh
-    . /etc/profile.d/hadoop.sh
+     [[ -z /etc/profile.d/java.sh ]] && . /etc/profile.d/java.sh
+     [[ -z /etc/profile.d/hadoop.sh ]] && . /etc/profile.d/hadoop.sh
 }
 
 start () {
