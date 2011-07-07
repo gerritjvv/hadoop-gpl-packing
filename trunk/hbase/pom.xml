@@ -41,7 +41,7 @@
 					<provides>
 						<provide>hbase</provide>
 					</provides>
-					<needarch>i386-32</needarch>
+					<needarch>x86_64</needarch>
 					<requires>
 					</requires>
 					<changelogFile>src/changelog</changelogFile>
