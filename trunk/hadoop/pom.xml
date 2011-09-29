@@ -4,7 +4,7 @@
 
 	<groupId>org.hadoopgqlpackaging</groupId>
 	<artifactId>hadoop-gpl-packaging</artifactId>
-	<version>0.3.0</version>
+	<version>0.3.1</version>
 	<packaging>jar</packaging>
 
 	<name>hadoop-gpl-packaging</name>
@@ -32,7 +32,7 @@
 					<provides>
 						<provide>hadoopgpl</provide>
 					</provides>
-					<needarch>x86-64</needarch>
+					<needarch>x86_64</needarch>
 					<requires>
 					 <require>lzo</require>
 					</requires>
