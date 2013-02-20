@@ -67,6 +67,10 @@
                 	                                                <destination>hadoop-lzo.jar</destination>
         	                                                        <location>/opt/hadoopgpl/lib/hadoop-lzo-0.4.17.jar</location>
 	                                                        </softlinkSource>
+ 								<softlinkSource>
+                                                                        <destination>pig-0.10.0/udfs.jar</destination>
+                                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/udfs-0.3.0.jar</location>
+                                                                </softlinkSource>
 								<softlinkSource>
                 	                                                <destination>pig-0.10.0/elephant-bird.jar</destination>
         	                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/elephant-bird-gerritjvv/elephant-bird-2.0.5.jar</location>
