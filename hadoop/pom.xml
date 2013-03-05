@@ -69,7 +69,7 @@
 	                                                        </softlinkSource>
  								<softlinkSource>
                                                                         <destination>pig-0.10.0/udfs.jar</destination>
-                                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/udfs-0.3.0.jar</location>
+                                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/udfs-0.3.1.jar</location>
                                                                 </softlinkSource>
 								<softlinkSource>
                 	                                                <destination>pig-0.10.0/elephant-bird.jar</destination>
