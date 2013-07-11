@@ -4,7 +4,7 @@
 
 	<groupId>org.hadoopgqlpackaging</groupId>
 	<artifactId>hadoop-gpl-packaging</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>hadoop-gpl-packaging</name>
@@ -69,7 +69,7 @@
 	                                                        </softlinkSource>
  								<softlinkSource>
                                                                         <destination>pig-0.10.0/udfs.jar</destination>
-                                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/udfs-0.3.1.jar</location>
+                                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/udfs-0.4.0.jar</location>
                                                                 </softlinkSource>
 								<softlinkSource>
                 	                                                <destination>pig-0.10.0/elephant-bird.jar</destination>
