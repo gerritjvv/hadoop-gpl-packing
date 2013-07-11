@@ -4,7 +4,7 @@
 
 	<groupId>org.hadoopgqlpackaging</groupId>
 	<artifactId>hadoop-gpl-packaging</artifactId>
-	<version>0.6.1</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>hadoop-gpl-packaging</name>
@@ -73,7 +73,7 @@
                                                                 </softlinkSource>
 								<softlinkSource>
                 	                                                <destination>pig-0.10.0/elephant-bird.jar</destination>
-        	                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/elephant-bird-gerritjvv/elephant-bird-2.0.5.jar</location>
+        	                                                        <location>/opt/hadoopgpl/lib/pig-0.10.0/elephant-bird-gerritjvv/elephant-bird-pig-4.1-SNAPSHOT.jar</location>
 	                                                        </softlinkSource>
 							</sources>
 						</mapping>
