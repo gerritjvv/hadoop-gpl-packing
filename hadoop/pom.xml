@@ -4,7 +4,7 @@
 
 	<groupId>org.hadoopgqlpackaging</groupId>
 	<artifactId>hadoop-gpl-packaging</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.7</version>
 	<packaging>jar</packaging>
 
 	<name>hadoop-gpl-packaging</name>
